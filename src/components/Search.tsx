@@ -28,15 +28,11 @@ const Search = ({handleSubmit} :Props): JSX.Element => {
     <h1>Search a city</h1>
     <div className="relative flex mt-10 md:mt-4">
         <input
-        
         type="text" 
         value={search}
         className="px-2 py-1 mb-5 rounded-l-md border-2 border-white"
         onChange={handleInputChange}
         />
-
-        {/* <Suggestions options={options} onSelect={onOptionSelect}/> */}
-        
 
         <button
         type="submit"
